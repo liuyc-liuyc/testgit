@@ -9,5 +9,6 @@ import tk.mybatis.spring.annotation.MapperScan;
 public class Start {
     public static void main(String[] args) {
         SpringApplication.run(Start.class,args);
+        System.out.println("this is github");
     }
 }
